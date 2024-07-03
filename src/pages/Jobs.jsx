@@ -1,13 +1,11 @@
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Footer } from "@/components/Footer";
 
-const Index = () => {
+const Jobs = () => {
   return (
     <div className="flex flex-col items-center space-y-8">
       <header className="text-center">
-        <h1 className="text-4xl font-bold">Job Finder</h1>
-        <p className="text-lg text-muted-foreground">Find your dream job today!</p>
+        <h1 className="text-4xl font-bold">Job Listings</h1>
       </header>
       <div className="w-full max-w-md">
         <Input placeholder="Search for jobs..." />
@@ -34,9 +32,8 @@ const Index = () => {
           </CardContent>
         </Card>
       </section>
-      <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Jobs;
